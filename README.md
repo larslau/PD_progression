@@ -1,7 +1,7 @@
 # PD progression
 Models describing the progression of PD symptoms along time since onset and aging
 
-Each file is a list containing the necessary information to recreate the models for each outcome in R. For example, `hy.RData` contains the list `hy_res` where the first element are the names of the outcome variables, second element contains the two associated spline basis functions, and the third element the model estimates. E.g.
+Each file is a list containing the necessary information to recreate the models for each outcome in R. For example, `hy.RData` contains the list `hy_res` where the first element contains the names of the outcome variables, second element contains the two associated spline basis functions, and the third element the model estimates. E.g.
 
 
   > hy_res[[1]][[2]]
